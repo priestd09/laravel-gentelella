@@ -30,3 +30,29 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 
 # Installation
+
+First, clone git represitory
+
+With Git SSH
+```
+git@github.com:FlorientR/laravel-gentelella.git
+```
+
+Or with HTTPS
+```
+https://github.com/FlorientR/laravel-gentelella.git
+```
+
+Next, go to your project folder and run this follow commands
+
+```
+composer update
+php artisan key:generate
+npm install --global bower gulp
+npm install
+bower install
+gulp
+```
+
+And you are ready for a new Laravel 5.2 application with Gentelella template !!
+
