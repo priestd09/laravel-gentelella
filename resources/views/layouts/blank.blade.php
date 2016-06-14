@@ -18,10 +18,10 @@
         <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- Font Awesome -->
         <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Custom Theme Style -->
+        <link href="../build/css/custom.min.css" rel="stylesheet">
         @endpush
 
-        <!-- At the end : Custom Theme Style -->
-        <link href="../build/css/custom.min.css" rel="stylesheet">
     </head>
 
     <body class="nav-md">
@@ -40,9 +40,8 @@
             <script src="../vendors/jquery/dist/jquery.min.js"></script>
             <!-- Bootstrap -->
             <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+            <!-- Custom Theme Scripts -->
+            <script src="../build/js/custom.min.js"></script>
         @endpush
-
-        <!-- At the end : Custom Theme Scripts -->
-        <script src="../build/js/custom.min.js"></script>
     </body>
 </html>
