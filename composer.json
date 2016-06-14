@@ -1,7 +1,19 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "FlorientR/laravel-gentelella",
+    "description": "The Laravel 5.2 framework with Gentelella template",
+    "keywords": [
+      "framework",
+      "laravel",
+      "gentelella",
+      "laravel-gentelella",
+      "template",
+      "bootstrap",
+      "responsive",
+      "admin",
+      "php",
+      "html",
+      "css"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
