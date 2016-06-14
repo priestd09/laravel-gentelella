@@ -19,6 +19,15 @@ elixir(function(mix) {
     /* Copy Stylesheets */
     /********************/
 
+    // Bootstrap
+    mix.copy('vendor/bower_components/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css', 'public/css/bootstrap.min.css');
+
+    // Font awesome
+    mix.copy('vendor/bower_components/gentelella/vendors/font-awesome/css/font-awesome.min.css', 'public/css/font-awesome.min.css');
+
+    // Gentelella
+    mix.copy('vendor/bower_components/gentelella/build/css/custom.min.css', 'public/css/gentelella.min.css');
+
     /****************/
     /* Copy Scripts */
     /****************/
