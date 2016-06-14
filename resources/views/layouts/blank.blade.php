@@ -11,16 +11,14 @@
 
         <title>Gentellela Alela! | </title>
 
-        @stack('stylesheets')
-
-        @push('stylesheets')
         <!-- Bootstrap -->
-        <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ asset("public/css/bootstrap.min.css") }}" rel="stylesheet">
         <!-- Font Awesome -->
-        <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="{{ asset("public/css/font-awesome.min.css") }}" rel="stylesheet">
         <!-- Custom Theme Style -->
-        <link href="../build/css/custom.min.css" rel="stylesheet">
-        @endpush
+        <link href="{{ asset("public/css/gentelella.min.css") }}" rel="stylesheet">
+
+        @stack('stylesheets')
 
     </head>
 
@@ -33,15 +31,14 @@
             </div>
         </div>
 
+        <!-- jQuery -->
+        <script src="../vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="../build/js/custom.min.js"></script>
+
         @stack('scripts')
 
-        @push('scripts')
-            <!-- jQuery -->
-            <script src="../vendors/jquery/dist/jquery.min.js"></script>
-            <!-- Bootstrap -->
-            <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-            <!-- Custom Theme Scripts -->
-            <script src="../build/js/custom.min.js"></script>
-        @endpush
     </body>
 </html>
