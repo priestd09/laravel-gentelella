@@ -11,6 +11,19 @@ var elixir = require('laravel-elixir');
  |
  */
 
+// Gentelella vendors path : vendor/bower_components/gentelella/vendors
+
 elixir(function(mix) {
-    mix.sass('app.scss');
+    
+    /********************/
+    /* Copy Stylesheets */
+    /********************/
+
+    /****************/
+    /* Copy Scripts */
+    /****************/
+
+    /**************/
+    /* Copy Fonts */
+    /**************/
 });
