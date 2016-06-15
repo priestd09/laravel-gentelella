@@ -43,6 +43,11 @@ Or with HTTPS
 git clone https://github.com/FlorientR/laravel-gentelella.git
 ```
 
+Go to the project folder 
+```
+cd laravel-gentelella
+```
+
 Update composer 
 ```
 composer update
@@ -54,14 +59,12 @@ For Unix
 ```
 cp .env.example .env
 ```
-
 For Windows
 ```
 copy .env.example .env
 ```
 
-
-Next, go to your project folder and run this follow commands
+Next, run this follow commands
 
 ```
 php artisan key:generate
