@@ -35,18 +35,31 @@ First, clone git represitory
 
 With Git SSH
 ```
-git@github.com:FlorientR/laravel-gentelella.git
+git clone git@github.com:FlorientR/laravel-gentelella.git
 ```
 
 Or with HTTPS
 ```
-https://github.com/FlorientR/laravel-gentelella.git
+git clone https://github.com/FlorientR/laravel-gentelella.git
 ```
 
+Update composer 
+```
+composer update
+```
+
+Copy .env.example file to .env
+For Unix
+```
+cp .env.example .env
+```
+For Windows
+```
+copy .env.example .env
+```
 Next, go to your project folder and run this follow commands
 
 ```
-composer update
 php artisan key:generate
 npm install --global bower gulp
 npm install
