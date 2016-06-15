@@ -26,6 +26,10 @@
         <div class="container body">
             <div class="main_container">
 
+                @include('includes/sidebar')
+
+                @include('includes/topbar')
+
                 @yield('main_container')
 
             </div>
