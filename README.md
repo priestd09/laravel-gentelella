@@ -48,15 +48,19 @@ Update composer
 composer update
 ```
 
-Copy .env.example file to .env
+Copy ```.env.example``` file to ```.env```
+
 For Unix
 ```
 cp .env.example .env
 ```
+
 For Windows
 ```
 copy .env.example .env
 ```
+
+
 Next, go to your project folder and run this follow commands
 
 ```
