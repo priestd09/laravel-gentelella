@@ -32,6 +32,15 @@ elixir(function(mix) {
     /* Copy Scripts */
     /****************/
 
+    // Bootstrap
+    mix.copy('vendor/bower_components/gentelella/vendors/bootstrap/dist/js/bootstrap.min.js', 'public/js/bootstrap.min.js');
+
+    // jQuery
+    mix.copy('vendor/bower_components/gentelella/vendors/jquery/dist/jquery.min.js', 'public/js/jquery.min.js');
+
+    // Gentelella
+    mix.copy('vendor/bower_components/gentelella/build/js/custom.min.js', 'public/js/gentelella.min.js');
+
     /**************/
     /* Copy Fonts */
     /**************/
