@@ -44,4 +44,10 @@ elixir(function(mix) {
     /**************/
     /* Copy Fonts */
     /**************/
+
+    // Bootstrap
+    mix.copy('vendor/bower_components/gentelella/vendors/bootstrap/fonts/', 'public/fonts');
+
+    // Font awesome
+    mix.copy('vendor/bower_components/gentelella/vendors/font-awesome/fonts/', 'public/fonts');
 });
